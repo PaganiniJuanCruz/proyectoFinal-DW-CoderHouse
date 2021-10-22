@@ -1,0 +1,151 @@
+/*SASS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: url(../imagenes2/fondo2.png) no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*LE DOY FOPRMATO A LA IMAGEN DE FONDO*/
+.fondo-inicio::before {
+  content: "";
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(black, white);
+  opacity: 0.4;
+}
+
+.fondo-inicio {
+  overflow-y: hidden;
+}
+
+@font-face {
+  font-family: "baskerville";
+  src: url("/web-fonts/LibreBaskerville-Regular.ttf") format("woff");
+  font-display: swap;
+}
+.titulo {
+  font-family: "baskerville";
+  color: slateblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.subtitulo {
+  font-family: "baskerville";
+  color: white;
+}
+
+.nav-derecha {
+  display: flex;
+  justify-content: center;
+  background-color: none;
+}
+
+.navbar {
+  font-family: "baskerville";
+}
+
+.estilo-titulos {
+  color: khaki;
+  font-family: "baskerville";
+  padding: 100px 0;
+}
+
+/*ESTILO AL SUBTITULO*/
+.estilo-subtitulos {
+  color: whitesmoke;
+}
+
+/*ESTILO A LOS PARRAFOS*/
+.estilo-parrafo {
+  color: whitesmoke;
+}
+
+.img-estadisticas {
+  height: 400px;
+  width: 800px;
+}
+
+.fondo-paginas {
+  background: url(../imagenes2/fondo6.png);
+}
+
+.go-top-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+
+.go-top-button {
+  width: 0rem;
+  height: 0rem;
+  background-color: indigo;
+  border-radius: 50%;
+  transition: 0.2s;
+  cursor: pointer;
+  top: 50%;
+  left: 50px;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.go-top-button i {
+  position: absolute;
+  font-size: 1.7rem;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: whitesmoke;
+  transition: 0.2s;
+}
+
+.show {
+  z-index: 10;
+}
+
+.show .go-top-button {
+  animation: popup 0.3s ease-in-out;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: 11;
+}
+
+.show i {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+  0% {
+    width: 0rem;
+    height: 0rem;
+  }
+  50% {
+    width: 8rem;
+    height: 8rem;
+  }
+  100% {
+    width: 6.6rem;
+    height: 6.6rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

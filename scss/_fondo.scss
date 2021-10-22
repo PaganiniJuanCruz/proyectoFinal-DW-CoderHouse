@@ -1,0 +1,25 @@
+body{
+    min-height: 100vh;
+    background: url(../imagenes/fondo2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/*LE DOY FOPRMATO A LA IMAGEN DE FONDO*/
+.fondo-inicio::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background:linear-gradient(black, white);
+
+    opacity: 0.4;
+}
+
+.fondo-inicio{
+    overflow-y: hidden;
+}

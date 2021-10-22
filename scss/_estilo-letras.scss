@@ -1,0 +1,18 @@
+@import "variables";
+
+.estilo-titulos{
+    color: $color-titulos;
+    font-family: "baskerville";
+    padding: 100px 0;
+}
+
+/*ESTILO AL SUBTITULO*/
+.estilo-subtitulos{
+    color: $color-parrafo;
+}
+
+/*ESTILO A LOS PARRAFOS*/
+.estilo-parrafo{
+    color: $color-parrafo;
+}
+

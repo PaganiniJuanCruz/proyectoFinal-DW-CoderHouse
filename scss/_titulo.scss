@@ -1,0 +1,19 @@
+@import "variables";
+
+.titulo{
+    font-family: "baskerville";
+    color: $color-inicio;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+
+.subtitulo{
+    font-family: "baskerville";
+    color: white;
+}
