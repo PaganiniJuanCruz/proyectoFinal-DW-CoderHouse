@@ -9,10 +9,21 @@
 /*ESTILO AL SUBTITULO*/
 .estilo-subtitulos{
     color: $color-parrafo;
+    font-family: "baskerville";
+    font-size: 20px;
 }
 
 /*ESTILO A LOS PARRAFOS*/
 .estilo-parrafo{
     color: $color-parrafo;
+    font-family: "baskerville";
+}
+
+.subtitulo-logros{
+    font-family: "baskerville";
+    color: $color-titulos;
+    font-size: 50px;
+    padding-top: 90px;
+    padding-bottom: 20px;
 }
 

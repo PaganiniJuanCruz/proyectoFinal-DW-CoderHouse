@@ -70,20 +70,31 @@ body {
 /*ESTILO AL SUBTITULO*/
 .estilo-subtitulos {
   color: whitesmoke;
+  font-family: "baskerville";
+  font-size: 20px;
 }
 
 /*ESTILO A LOS PARRAFOS*/
 .estilo-parrafo {
   color: whitesmoke;
+  font-family: "baskerville";
 }
 
-.img-estadisticas {
-  height: 400px;
-  width: 800px;
+.subtitulo-logros {
+  font-family: "baskerville";
+  color: khaki;
+  font-size: 50px;
+  padding-top: 90px;
+  padding-bottom: 20px;
 }
 
 .fondo-paginas {
   background: url(../imagenes2/fondo6.png);
+}
+
+.img-estadisticas {
+  width: 800px;
+  height: 400px;
 }
 
 .go-top-container {
@@ -146,6 +157,11 @@ body {
     width: 6.6rem;
     height: 6.6rem;
   }
+}
+.video-volcadas {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */
