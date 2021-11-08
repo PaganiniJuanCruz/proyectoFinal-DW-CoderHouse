@@ -30,7 +30,7 @@ body {
 
 @font-face {
   font-family: "baskerville";
-  src: url("/web-fonts/LibreBaskerville-Regular.ttf") format("woff");
+  src: url("../web-fonts/LibreBaskerville-Regular.ttf") format("woff");
   font-display: swap;
 }
 .titulo {
